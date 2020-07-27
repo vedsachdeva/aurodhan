@@ -11,7 +11,7 @@ function App() {
         <Router history={history}>
             <div>
                 <Route path="/" component={MainContainer}/>
-                <Route path="/admin" component={MainContainer}/>
+                <Route path="/home" component={MainContainer}/>
             </div>
         </Router>
     );
